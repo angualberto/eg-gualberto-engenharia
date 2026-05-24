@@ -1,13 +1,15 @@
 # EG Gualberto Engenharia
 
-Site institucional da EG Gualberto Engenharia, desenvolvido em HTML, CSS e JavaScript puro e preparado para publicacao no GitHub Pages.
+Site institucional da **EG Gualberto Engenharia**, desenvolvido em HTML, CSS e JavaScript puro e publicado pelo GitHub Pages.
 
-## Conteudo
+## Identidade
 
-- Apresentacao da empresa.
-- Servicos de engenharia e diferenciais.
-- Contato direto por WhatsApp e e-mail.
-- Layout responsivo em azul e branco.
+Marca focada em engenharia e tecnologia aplicada, com paleta azul e branca, linguagem tecnica e direcionamento para:
+
+- Engenharia de software e desenvolvimento sob demanda.
+- Automacao predial e casas inteligentes.
+- Digitalizacao e apoio tecnologico para engenharia civil.
+- Integracao entre plataformas digitais e dispositivos IoT.
 
 ## Estrutura
 
@@ -24,4 +26,4 @@ Site institucional da EG Gualberto Engenharia, desenvolvido em HTML, CSS e JavaS
 
 ## Publicacao
 
-O site e estatico e pode ser publicado diretamente pelo GitHub Pages a partir da branch `main`.
+O site e estatico e pode ser publicado pelo GitHub Pages a partir da branch `main`.
