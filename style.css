@@ -28,7 +28,7 @@ img { max-width: 100%; }
 .nav-wrap { height: 100%; display: flex; align-items: center; gap: 34px; }
 .brand { display: inline-flex; align-items: center; gap: 12px; margin-right: auto; color: var(--white); }
 .header.scrolled .brand { color: var(--blue-950); }
-.brand-logo { width: 62px; height: 58px; display: block; object-fit: contain; background: transparent; filter: drop-shadow(0 5px 9px rgba(0,0,0,.32)); }
+.brand-logo { width: 62px; height: 58px; display: block; object-fit: contain; background: transparent; border: 0; box-shadow: none; filter: none; }
 .brand strong { display: block; font-family: "Montserrat", sans-serif; font-size: 15px; line-height: 1.05; text-transform: uppercase; }
 .brand small { display: block; font-size: 10px; line-height: 1.2; letter-spacing: 1.7px; text-transform: uppercase; }
 .nav { display: flex; gap: 25px; color: #d8e0e8; font-size: 14px; }
@@ -58,8 +58,8 @@ img { max-width: 100%; }
 .primary:hover { background: var(--blue-100); }
 .secondary { border: 1px solid #abb8c5; color: var(--white); }
 .secondary:hover { background: rgba(255,255,255,.08); }
-.hero-brand { display: flex; flex-direction: column; align-items: center; padding: 0; color: var(--white); }
-.hero-brand img { display: block; width: min(100%, 470px); aspect-ratio: auto; object-fit: contain; filter: drop-shadow(0 26px 28px rgba(2,18,33,.34)); }
+.hero-brand { display: flex; flex-direction: column; align-items: center; padding: 0; background: transparent; border: 0; box-shadow: none; backdrop-filter: none; color: var(--white); }
+.hero-brand img { display: block; width: min(100%, 470px); aspect-ratio: auto; object-fit: contain; background: transparent; border: 0; box-shadow: none; filter: none; }
 .hero-strip { position: relative; border-top: 1px solid rgba(255,255,255,.22); background: rgba(4,34,55,.2); }
 .strip-grid { display: grid; grid-template-columns: repeat(3, 1fr); }
 .strip-grid span { min-height: 72px; display: flex; align-items: center; font-size: 13px; font-weight: 500; text-transform: uppercase; color: #d7dfe7; }
