@@ -43,7 +43,7 @@ img { max-width: 100%; }
 .menu span:not(.sr-only) { display: block; width: 19px; height: 2px; background: var(--white); }
 .header.scrolled .menu { border-color: var(--line); }
 .header.scrolled .menu span:not(.sr-only) { background: var(--blue-900); }
-.hero { position: relative; min-height: min(870px, 100vh); display: flex; flex-direction: column; justify-content: flex-end; overflow: hidden; background: linear-gradient(126deg, var(--blue-950), var(--blue-900) 64%, #303944); color: var(--white); }
+.hero { position: relative; min-height: min(870px, 100vh); display: flex; flex-direction: column; justify-content: flex-end; overflow: hidden; background-color: var(--blue-950); background-image: linear-gradient(90deg, rgba(5,11,30,.96) 0%, rgba(8,25,80,.9) 44%, rgba(5,11,30,.56) 100%), url("assets/hero-fundo.webp"); background-size: cover, cover; background-position: center, center right; color: var(--white); }
 .blueprint { position: absolute; inset: 0; opacity: .33; background-image: linear-gradient(rgba(255,255,255,.08) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,.08) 1px, transparent 1px), linear-gradient(108deg, transparent 0 60%, rgba(255,255,255,.14) 60% 60.1%, transparent 60.1%); background-size: 54px 54px, 54px 54px, 100% 100%; mask-image: linear-gradient(90deg, transparent, #000 48%, #000); }
 .hero-layout { position: relative; display: grid; grid-template-columns: 1.04fr .76fr; align-items: center; gap: 66px; padding: calc(var(--header) + 48px) 0 72px; }
 .overline, .label { margin-bottom: 18px; font-size: 12px; font-weight: 700; letter-spacing: 1.3px; text-transform: uppercase; }
@@ -86,6 +86,13 @@ img { max-width: 100%; }
 .service-number { display: block; margin-bottom: 27px; color: var(--blue-700); font-family: "Montserrat", sans-serif; font-weight: 700; font-size: 13px; }
 .service h3 { margin-bottom: 12px; font-size: 18px; line-height: 1.3; }
 .service p { color: var(--muted); font-size: 14px; }
+.visual-fields { padding: 0 0 88px; background: var(--blue-050); border-bottom: 1px solid var(--line); }
+.visual-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; }
+.visual-card { margin: 0; overflow: hidden; border-radius: 8px; border: 1px solid var(--line); background: var(--white); }
+.visual-card img { display: block; width: 100%; height: 260px; object-fit: cover; }
+.visual-card figcaption { display: flex; flex-direction: column; gap: 6px; padding: 18px 20px 20px; }
+.visual-card small { color: var(--blue-700); font-size: 11px; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; }
+.visual-card strong { color: var(--blue-900); font-size: 16px; font-weight: 600; }
 .work .heading { max-width: 700px; margin-bottom: 48px; }
 .work-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 15px; }
 .work-card { padding: 32px; border: 1px solid var(--line); border-radius: 8px; background: var(--white); }
@@ -135,7 +142,9 @@ img { max-width: 100%; }
   .brand-caption { display: none; }
   .hero h1 { font-size: clamp(37px, 11vw, 47px); }
   .hero-text { font-size: 15px; }
-  .strip-grid, .services, .work-grid, .company-data { grid-template-columns: 1fr; }
+  .strip-grid, .services, .visual-grid, .work-grid, .company-data { grid-template-columns: 1fr; }
+  .visual-fields { padding-bottom: 58px; }
+  .visual-card img { height: 225px; }
   .strip-grid { padding: 12px 0; }
   .strip-grid span { min-height: 39px; }
   .strip-grid span + span { padding-left: 0; border: 0; }
