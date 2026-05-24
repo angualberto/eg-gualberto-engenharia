@@ -19,7 +19,8 @@ Marca focada em engenharia e tecnologia aplicada, com paleta azul e branca, ling
 |-- style.css
 |-- script.js
 |-- assets/
-|   |-- logo-eg-gualberto.webp
+|   |-- logo-eg-gualberto.png
+|   |-- logo-mini.png
 |   |-- hero-fundo.webp
 |   |-- engenharia-civil.webp
 |   |-- automacao-inteligente.webp
