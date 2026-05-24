@@ -6,10 +6,12 @@ Site institucional da **EG Gualberto Engenharia**, desenvolvido em HTML, CSS e J
 
 Marca focada em engenharia e tecnologia aplicada, com paleta azul e branca, linguagem tecnica e direcionamento para:
 
-- Engenharia de software e desenvolvimento sob demanda.
-- Automacao predial e casas inteligentes.
+- Desenvolvimento de softwares, inteligencia artificial e solucoes digitais sob demanda.
+- Automacao predial, casas inteligentes e solucoes digitais para construcao civil.
 - Digitalizacao e apoio tecnologico para engenharia civil.
 - Integracao entre plataformas digitais e dispositivos IoT.
+- Execucao de projetos, suporte tecnico e manutencao.
+- Regularizacao de imoveis, documentacao e viabilidade tecnica.
 
 ## Estrutura
 
